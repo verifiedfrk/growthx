@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact — GrowthX</title>
+<meta name="description" content="Tell GrowthX about your business challenge. No need to know which service you need.">
+<meta name="theme-color" content="#08080A">
+<meta property="og:title" content="Contact — GrowthX">
+<meta property="og:description" content="Tell GrowthX about your business challenge. No need to know which service you need.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="nav">
+<a class="logo" href="index.html" aria-label="GrowthX home"><svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="8" fill="#FF5A36"/><path d="M9 19 L19 9 M12 9 H19 V16" stroke="#08080A" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>GrowthX</span></a>
+<nav class="nav__links" id="nav-menu" aria-label="Primary">
+<a href="solutions.html">Solutions</a>
+<a href="how-we-work.html">How we work</a>
+<a href="about.html">About</a>
+</nav>
+<div class="nav__actions">
+<a class="btn btn--primary nav__cta" href="contact.html" aria-current="page">Talk to us</a>
+<button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+<svg class="i-open" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h14M3 14h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+<svg class="i-close" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+</button>
+</div>
+</div>
+</header>
+<main id="main">
+<section class="contact" aria-labelledby="contact-h">
+<div class="glow glow--left" aria-hidden="true"></div>
+<div class="container">
+<div class="contact__grid">
+
+<div class="contact__copy">
+<p class="mono r1">[ Contact ]</p>
+<h1 class="h1 h1--contact r2" id="contact-h">Let’s solve your<span class="h1__serif">business challenge.</span></h1>
+<p class="lead r3">Describe it in your own words. No need to know which service you need.</p>
+<ol class="steps3">
+<li><span class="n">01</span><span><strong>You tell us the problem.</strong> <span class="muted">A few lines is enough.</span></span></li>
+<li><span class="n">02</span><span><strong>We reply</strong> <span class="muted">to set up a call.</span></span></li>
+<li><span class="n">03</span><span><strong>We propose a way forward</strong> <span class="muted">— what we’d look at first.</span></span></li>
+</ol>
+</div>
+
+<div class="form-card">
+<!-- To receive enquiries: set data-endpoint to a form service URL (e.g. Formspree), or data-email to your inbox. -->
+<form class="form" data-enquiry data-endpoint="https://script.google.com/macros/s/AKfycbyl3fPphsVfeznrYmPd8SnBQQNpVAvPKxZdui88L3my1X0f912-0A8AFax6QlxJXzTr/exec" data-email="" aria-label="Business enquiry" novalidate>
+<div class="form__row">
+<div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+<div class="field"><label for="f-co">Company</label><input id="f-co" name="company" type="text" autocomplete="organization"></div>
+<div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+<div class="field"><label for="f-web">Website</label><input id="f-web" name="website" type="url" inputmode="url" placeholder="https://"></div>
+</div>
+<fieldset>
+<legend>What are you trying to solve?</legend>
+<div class="choice">
+<button type="button" aria-pressed="false">Funnel &amp; conversion</button>
+<button type="button" aria-pressed="false">Growth &amp; data</button>
+<button type="button" aria-pressed="false">Retention &amp; lifecycle</button>
+<button type="button" aria-pressed="false">Product &amp; PRDs</button>
+<button type="button" aria-pressed="false">AI agents &amp; automation</button>
+<button type="button" aria-pressed="false">Strategy &amp; operations</button>
+<button type="button" aria-pressed="false">Not sure yet</button>
+</div>
+<input type="hidden" name="challenges" value="">
+</fieldset>
+<div class="field"><label for="f-desc">Briefly describe the problem</label><textarea id="f-desc" name="message" rows="4" placeholder="What’s happening, what you’ve tried, what good looks like." required></textarea></div>
+<p class="form__error" data-error role="alert" hidden></p>
+<button class="btn btn--primary" type="submit">Send enquiry <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<p class="form__note">We only use your details to respond to this enquiry.</p>
+</form>
+<div class="sent" data-sent role="status" hidden>
+<svg width="52" height="52" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="23" fill="#FBE4DD"/><path d="M15 24.5l6 6 12-13" stroke="#C53A17" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<h2 tabindex="-1">Thanks — <em class="serif">we’ve got it.</em></h2>
+<p>We’ll read your challenge properly and get back to you with next steps.</p>
+<button type="button" data-again>Send another enquiry</button>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer__top">
+<div class="footer__brand">
+<a class="logo" href="index.html" aria-label="GrowthX home"><svg width="24" height="24" viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="8" fill="#FF5A36"/><path d="M9 19 L19 9 M12 9 H19 V16" stroke="#08080A" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>GrowthX</span></a>
+<span class="footer__tag">Your external growth, strategy, product and technology team.</span>
+</div>
+<nav class="footer__nav" aria-label="Footer">
+<a href="index.html">Home</a>
+<a href="solutions.html">Solutions</a>
+<a href="how-we-work.html">How we work</a>
+<a href="about.html">About</a>
+</nav>
+</div>
+<div class="footer__bottom">
+<span>© 2026 GrowthX</span>
+</div>
+</div>
+</footer>
+</body>
+</html>
